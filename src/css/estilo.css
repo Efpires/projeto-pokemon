@@ -83,13 +83,43 @@ main {
 	font-size: 17px;
 }
 
-.card-pokemon .tipos {
-	display: flex;
-	gap: 15px;
-	border-radius: 5px;
-}
-
 .card-pokemon .imagem-pokemon{
 	width: 70px;
 	height: 70px;
+}
+
+.card-pokemon .tipos {
+	display: flex;
+	gap: 15px;
+	border-radius: 10px;	
+}
+
+.card-pokemon .tipo {
+	padding: 8px;
+	border-radius: 10px;
+	color: white;
+}
+
+.grama {
+	background-color: #7ac74c;
+		
+}
+.veneno {
+	background-color: #df67ddfb;
+}
+.fogo {
+	background-color: #ee8130;
+}
+.agua {
+	background-color: #6390f0;
+}
+.inseto {
+	background-color: #a6b91a;
+}
+
+.descricao {
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
 }
